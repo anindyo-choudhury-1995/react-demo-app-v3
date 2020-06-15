@@ -23,19 +23,19 @@ class Createtag extends Component {
         <div className="TwoDivs">
           <div className="FirstDiv">
             <div className="Items">
-              <div className="ItemsFirst">* LookUp Type</div>
+              <div className="ItemsFirst"><span className="ColorBlue">*&nbsp;</span> LookUp Type</div>
               <div>
                 <input className="ItemsSecondInput" />
               </div>
             </div>
             <div className="Items">
-              <div className="ItemsFirst">* LookUp Code</div>
+              <div className="ItemsFirst"><span className="ColorBlue">*&nbsp;</span> LookUp Code</div>
               <div>
                 <input className="ItemsSecondInput" />
               </div>
             </div>
             <div className="Items">
-              <div className="ItemsFirst">* LookUp Meaning</div>
+              <div className="ItemsFirst"><span className="ColorBlue">*&nbsp;</span> LookUp Meaning</div>
               <div>
                 <input className="ItemsSecondInput" />
               </div>
@@ -43,25 +43,25 @@ class Createtag extends Component {
             <div className="Items">
               <div className="ItemsFirst">Active</div>
               <div className="ItemSecondCheckBox">
-                <input type="checkbox" />
+                <input type="checkbox" defaultChecked/>
               </div>
             </div>
           </div>
           <div className="SecondDiv">
             <div className="Items">
-              <div className="ItemsFirst">* Region</div>
+              <div className="ItemsFirst"><span className="ColorBlue">*&nbsp;</span> Region</div>
               <div>
                 <input className="ItemsSecondInput" />
               </div>
             </div>
             <div className="Items">
-              <div className="ItemsFirst">* Owner</div>
+              <div className="ItemsFirst"><span className="ColorBlue">*&nbsp;</span> Owner</div>
               <div>
                 <input className="ItemsSecondInput" />
               </div>
             </div>
             <div className="Items">
-              <div className="ItemsFirst">* Tags</div>
+              <div className="ItemsFirst"><span className="ColorBlue">*&nbsp;</span> Tags</div>
               <div>
                 <input className="ItemsSecondInput" />
               </div>
