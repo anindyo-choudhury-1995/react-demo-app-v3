@@ -117,7 +117,7 @@ class Time extends Component {
                       </select>
                     </td>
                     <td>
-                      <select name="cars" id="cars">
+                      <select name="cars" id="cars" className="width-100">
                         <option value="">Task Type</option>
                         <option value="followUp">Follow-up</option>
                         <option value="preperation">Preperation</option>
@@ -164,20 +164,17 @@ class Time extends Component {
                 {this.state.otherNums.map((num, index) => (
                   <tr key={index}>
                     <td>
-                      <select name="cars" id="cars">
+                      <select name="cars" id="cars" className="width-300">
                         <option value="non-service">Non Service</option>
                       </select>
                     </td>
                     <td>
-                      <select name="cars" id="cars">
+                      <select name="cars" id="cars" disabled>
                         <option value="">Select Activity</option>
-                        <option value="volvo">Day 1 Onboarding</option>
-                        <option value="saab">Technical Support</option>
-                        <option value="opel">Cloud Coaching</option>
                       </select>
                     </td>
                     <td>
-                      <select name="cars" id="cars">
+                      <select name="cars" id="cars" className="width-100">
                         <option value="">Task Type</option>
                         <option value="trainingPersonalDevelopment">Training/Personal Development</option>
                         <option value="corporateCitizenship">Corporate Citizenship</option>
