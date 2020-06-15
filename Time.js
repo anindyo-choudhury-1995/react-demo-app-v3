@@ -3,9 +3,18 @@ import "./time.css";
 class Time extends Component {
   state = {
     nums: [1, 2, 3],
-    otherNums: []
+    otherNums: [],
+    show: {}
   }
-  
+
+  selectValue = (index) => {
+    var newShow = JSON.parse(JSON.stringify(this.state.show));
+    if(event.target.value) {
+      newShow[index] = event.target.value;
+      this.setState({show: newShow});
+    }
+    
+  }
   addService = (event) => {
     var newNums = JSON.parse(JSON.stringify(this.state.nums));
     newNums.push(newNums.length+1);
@@ -92,29 +101,54 @@ class Time extends Component {
                 {this.state.nums.map((num, index) => (
                   <tr key={index}>
                     <td>
-                      <select className="width-300" name="cars" id="cars">
+                      <select className="width-300" name="cars" id="cars" onChange={() => this.selectValue(index)}>
                         <option value="">Select Service Request</option>
-                        <option value="customerWorkshopOrCloudDay">
+                        <option value="0">
                           Customer Workshop or Cloud Day-A6K8X-PEN_Test_Account(Belmont, US)
                         </option>
-                        <option value="consumptionService">
+                        <option value="1">
                           Consumption Service-9V8CD-Nationwide Mutual Insurance Company
                         </option>
-                        <option value="opportunityPursuit">
+                        <option value="2">
                           Opportunity Pursuit-106977-IBM
                         </option>
-                        <option value="expansionRenewalServices">
+                        <option value="3">
                           Expansion/Renewal Services-95913-Replacement Parts
                         </option>
                       </select>
                     </td>
                     <td>
-                      <select name="cars" id="cars">
+                    {
+                      this.state.show[index] == 1 ? 
+                      <select name="cars" id="cars" className="width-100">
+                        <option value="">Select Activity</option>
+                        <option value="1">Day1 onboarding</option>
+                        <option value="2">Technical Support</option>
+                        <option value="3">Cloud Coaching</option>
+                      </select>
+                      : this.state.show[index] == 2 ? 
+                      <select name="cars" id="cars" className="width-100">
+                        <option value="">Select Activity</option>
+                        <option value="4">Opty Pursuit Activity</option>
+                      </select>
+                      : this.state.show[index] == 3 ? 
+                      <select name="cars" id="cars" className="width-100">
+                        <option value="">Select Activity</option>
+                        <option value="5">Sales Play Workshop and Discovery</option>
+                        <option value="6">Innovation Day</option>
+                        <option value="7">Demonstration</option>
+                        <option value="8">Proof of Concept</option>
+                        <option value="9">Solution Proposal</option>
+                      </select>
+                      : 
+                      <select name="cars" id="cars" disabled className="width-100">
                         <option value="">Select Activity</option>
                         <option value="volvo">Day 1 Onboarding</option>
                         <option value="saab">Technical Support</option>
                         <option value="opel">Cloud Coaching</option>
                       </select>
+                    }
+                      
                     </td>
                     <td>
                       <select name="cars" id="cars" className="width-100">
