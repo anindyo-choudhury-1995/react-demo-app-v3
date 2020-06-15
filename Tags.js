@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
+
 import "./tags.css";
 class Tags extends Component {
   state = {
@@ -8,6 +10,9 @@ class Tags extends Component {
     return (
       <div className="TagsContainer">
         Tags
+        <Link to="/create-tag">
+            <button>Create</button>
+          </Link>
       </div>
     );
   }

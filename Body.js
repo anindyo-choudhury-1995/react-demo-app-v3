@@ -4,6 +4,7 @@ import Home from './Home'
 import Mapper from './Mapper'
 import Time from './Time'
 import Tags from './Tags'
+import Createtag from './Createtag'
 import {
   BrowserRouter as Router,
   Switch,
@@ -27,6 +28,9 @@ class Body extends Component {
         </Route>
         <Route path="/tags">
           <Tags />
+        </Route>
+        <Route path="/create-tag">
+          <Createtag />
         </Route>
         <Route path="/">
           <Home />
