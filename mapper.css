@@ -12,3 +12,11 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.MarginTop-48 {
+  margin-top: 48px;
+}
+
+.Margin-8-0 {
+  margin: 8px 0;
+}
