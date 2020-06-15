@@ -95,16 +95,16 @@ class Time extends Component {
                       <select name="cars" id="cars">
                         <option value="">Select Service Request</option>
                         <option value="customerWorkshopOrCloudDay">
-                          Customer Workshop or Cloud Day
+                          Customer Workshop or Cloud Day-A6K8X-PEN_Test_Account(Belmont, US)
                         </option>
                         <option value="consumptionService">
-                          Consumption Service
+                          Consumption Service-9V8CD-Nationwide Mutual Insurance Company
                         </option>
                         <option value="opportunityPursuit">
-                          Opportunity Pursuit
+                          Opportunity Pursuit-106977-IBM
                         </option>
                         <option value="expansionRenewalServices">
-                          Expansion/Renewal Services
+                          Expansion/Renewal Services-95913-Replacement Parts
                         </option>
                       </select>
                     </td>
