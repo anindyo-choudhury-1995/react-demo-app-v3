@@ -6,6 +6,10 @@
   overflow:auto;
 }
 
+.width-300 {
+  width: 300px;
+}
+
 .BorderDiv {
   background-color:rgb(255, 255, 255);
 border-bottom-color:rgb(224, 225, 225);

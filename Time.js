@@ -92,7 +92,7 @@ class Time extends Component {
                 {this.state.nums.map((num, index) => (
                   <tr key={index}>
                     <td>
-                      <select name="cars" id="cars">
+                      <select className="width-300" name="cars" id="cars">
                         <option value="">Select Service Request</option>
                         <option value="customerWorkshopOrCloudDay">
                           Customer Workshop or Cloud Day-A6K8X-PEN_Test_Account(Belmont, US)
