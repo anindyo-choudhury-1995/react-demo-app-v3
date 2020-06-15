@@ -3,6 +3,7 @@ import Create from './Create'
 import Home from './Home'
 import Mapper from './Mapper'
 import Time from './Time'
+// import Tags from './Tags'
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,14 +16,16 @@ class Body extends Component {
     return (
       <div className="Body">
         <Switch>
-        <Route path="/create">
+        {/*<Route path="/create">
           <Create />
-        </Route>
+        </Route>*/}
         <Route path="/mapper">
           <Mapper />
         </Route>
         <Route path="/time">
           <Time />
+        </Route>
+        <Route path="/tags">
         </Route>
         <Route path="/">
           <Home />

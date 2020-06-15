@@ -12,18 +12,24 @@ class Home extends Component {
         </div>
         <h5 className="Apps">APPS</h5>
         <div className="AppsListing">
-          <Link to="/create">
+          {/*<Link to="/create">
             <div className="ListingItem">
               <div className="ListingItemIcon"><div className="CreateServiceRequest"></div></div>
               <div className="ListingItemText">Create Service Request</div>
             </div>
-          </Link>
+          </Link>*/}
           <Link to="/time">
             <div className="ListingItem">
               <div className="ListingItemIcon"><div className="ManageTime"></div></div>
               <div className="ListingItemText">Manage Time</div>
             </div>
           </Link>
+            <Link to="/tags">
+             <div className="ListingItem">
+               <div className="ListingItemIcon"><div className="CreateTags Mapper"></div></div>
+               <div className="ListingItemText">Create Tags</div>
+             </div>
+           </Link>
             <Link to="/mapper">
              <div className="ListingItem">
                <div className="ListingItemIcon"><div className="Mapper"></div></div>
