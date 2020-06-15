@@ -100,7 +100,11 @@
     font-weight: 700;
 }
 
-input {
+.ItemSecondCheckBox {
+  width:288.891px;
+}
+
+.ItemsSecondInput {
   background-color:rgb(252, 253, 254);
 border-bottom-color:rgb(223, 228, 231);
 border-bottom-left-radius:2px;

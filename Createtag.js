@@ -25,24 +25,24 @@ class Createtag extends Component {
             <div className="Items">
               <div className="ItemsFirst">* LookUp Type</div>
               <div>
-                <input />
+                <input className="ItemsSecondInput" />
               </div>
             </div>
             <div className="Items">
               <div className="ItemsFirst">* LookUp Code</div>
               <div>
-                <input />
+                <input className="ItemsSecondInput" />
               </div>
             </div>
             <div className="Items">
               <div className="ItemsFirst">* LookUp Meaning</div>
               <div>
-                <input />
+                <input className="ItemsSecondInput" />
               </div>
             </div>
             <div className="Items">
               <div className="ItemsFirst">Active</div>
-              <div>
+              <div className="ItemSecondCheckBox">
                 <input type="checkbox" />
               </div>
             </div>
@@ -51,19 +51,19 @@ class Createtag extends Component {
             <div className="Items">
               <div className="ItemsFirst">* Region</div>
               <div>
-                <input />
+                <input className="ItemsSecondInput" />
               </div>
             </div>
             <div className="Items">
               <div className="ItemsFirst">* Owner</div>
               <div>
-                <input />
+                <input className="ItemsSecondInput" />
               </div>
             </div>
             <div className="Items">
               <div className="ItemsFirst">* Tags</div>
               <div>
-                <input />
+                <input className="ItemsSecondInput" />
               </div>
             </div>
           </div>
