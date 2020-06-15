@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class List extends Component {
+class Mapper extends Component {
   render() {
     return (
       <div>
-        List
+        Mapper
       </div>
     )
   }
 }
 
-export default List
+export default Mapper

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Create from './Create'
 import Home from './Home'
-import List from './List'
+import Mapper from './Mapper'
 import Time from './Time'
 import {
   BrowserRouter as Router,
@@ -18,8 +18,8 @@ class Body extends Component {
         <Route path="/create">
           <Create />
         </Route>
-        <Route path="/list">
-          <List />
+        <Route path="/mapper">
+          <Mapper />
         </Route>
         <Route path="/time">
           <Time />

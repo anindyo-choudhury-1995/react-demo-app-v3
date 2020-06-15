@@ -24,6 +24,12 @@ class Home extends Component {
               <div className="ListingItemText">Manage Time</div>
             </div>
           </Link>
+            <Link to="/mapper">
+             <div className="ListingItem">
+               <div className="ListingItemIcon"><div className="Mapper"></div></div>
+               <div className="ListingItemText">Map Activity</div>
+             </div>
+           </Link>
         </div>
       </div>
     );
@@ -32,9 +38,3 @@ class Home extends Component {
 
 export default Home;
 
-// <Link to="/list">
-//             <div className="ListingItem">
-//               <div className="ListingItemIcon"><div className="MyServiceRequest"></div></div>
-//               <div className="ListingItemText">My Service Requests</div>
-//             </div>
-//           </Link>
