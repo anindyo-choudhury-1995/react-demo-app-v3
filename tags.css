@@ -1,0 +1,8 @@
+.TagsContainer {
+  height: calc(100% - 32px);
+  background: white;
+  padding: 16px;
+  color: #312d2a;
+  overflow:auto;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}

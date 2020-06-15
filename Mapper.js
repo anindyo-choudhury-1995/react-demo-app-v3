@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import "./mapper.css";
+import "./mapper.css";
 class Mapper extends Component {
   state = {
     region: ["APAC", "EMEA", "LAD", "ANTARCTICA", "NAS", "JAPAN"]
@@ -10,7 +10,9 @@ class Mapper extends Component {
         Map Activity to Service Request
         <div className="TwoDivs">
           <div className="FirstDiv">
-            Region
+            <div>
+              Region
+            </div>
             <select name="cars" id="cars">
               <option value="">Select Region</option>
               <option value="GLOBAL">GLOBAL</option>
@@ -22,7 +24,10 @@ class Mapper extends Component {
               <option value="NAS">NAS</option>
             </select>
             <br />
-            Service Request
+            <br />
+            <div>
+              Service Request
+            </div>
             <select name="cars" id="cars">
               <option value="">Select Service Request</option>
               <option value="GLOBAL">GLOBAL</option>

@@ -3,7 +3,7 @@ import Create from './Create'
 import Home from './Home'
 import Mapper from './Mapper'
 import Time from './Time'
-// import Tags from './Tags'
+import Tags from './Tags'
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,6 +26,7 @@ class Body extends Component {
           <Time />
         </Route>
         <Route path="/tags">
+          <Tags />
         </Route>
         <Route path="/">
           <Home />
