@@ -7,7 +7,21 @@ class Createtag extends Component {
   render() {
     return (
       <div className="CreatetagContainer">
-        Create Tag
+        <div className="TopActionBar">
+          <div>Create</div>
+          <div>
+            |
+            <button>
+              Save and Continue
+            </button>
+            <button>
+              Save and Close
+            </button>
+            <button>
+              Cancel
+            </button>
+          </div>
+        </div>
       </div>
     );
   }

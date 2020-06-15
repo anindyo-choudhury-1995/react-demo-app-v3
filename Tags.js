@@ -9,7 +9,7 @@ class Tags extends Component {
   render() {
     return (
       <div className="TagsContainer">
-        Tags
+        Service Administration: Manage LookUps
         <Link to="/create-tag">
             <button>Create</button>
           </Link>
